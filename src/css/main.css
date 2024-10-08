@@ -16,3 +16,67 @@ img,
 video {
   display: block;
 }
+
+@media (min-width: 300px) {
+  .description-title {
+    color: #000;
+    text-align: center;
+    font-family: "Hammersmith One";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.logos {
+  display: flex;
+  padding-left: 30%;
+  padding-top: 5%;
+}
+
+p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  font-family: Hammersmith One;
+}
+
+h3 {
+  font-family: Hammersmith One;
+}
+
+.news-title {
+  padding-top: 5%;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.download-title {
+  color: #000;
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 576px) {
+  .download-content desktop {
+    display: none;
+  }
+}
