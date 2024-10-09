@@ -22,7 +22,7 @@ video {
     color: #000;
     text-align: center;
     font-family: "Hammersmith One";
-    font-size: 28px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -69,7 +69,7 @@ h3 {
   color: #000;
   text-align: center;
   font-family: "Hammersmith One";
-  font-size: 28px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -78,5 +78,22 @@ h3 {
 @media (max-width: 992px) {
   .download-content-desktop {
     display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0%;
+  }
+  .description-title {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .download-title {
+    font-size: 28px;
+    font-weight: 400;
   }
 }
